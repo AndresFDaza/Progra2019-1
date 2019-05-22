@@ -9,9 +9,9 @@ public class botellaNormalClase {
     
     
     public botellaNormalClase(){
-        this.precioMaterial = 0;
-        this.precioManoObra = 0;
-        this.costoBotella =0;
+        this.precioMaterial = 0f;
+        this.precioManoObra = 0f;
+        this.costoBotella =0f;
     }
     
     // Setters y Getters

@@ -6,6 +6,9 @@ public class estampaAnimada extends botellaEstampada {
     
     float precioEstampaAnimada;
 
+public estampaAnimada(){
+    super();
+}
     
     
     public float getPrecioEstampaAnimada() {

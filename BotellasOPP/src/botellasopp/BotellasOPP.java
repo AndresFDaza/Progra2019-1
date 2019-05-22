@@ -34,12 +34,16 @@ public class BotellasOPP {
                 break;
             
             botellaNormal.setCostoBotella();
+            System.out.println("ALERT HERE: "+ botellaNormal.getCostoBotella());
             float precioBotellaNormal = botellaNormal.getCostoBotella();
-            botellaConGrabado.setCostoBotellaExterno(precioBotellaNormal);
-            estampadoAnimada.setCostoBotellaExterno(precioBotellaNormal);
-            estampadoDeporte.setCostoBotellaExterno(precioBotellaNormal);
-            estampadoCultural.setCostoBotellaExterno(precioBotellaNormal);
+            
             botellaConGrabado.setPrecioBotella();
+            estampadoAnimada.setCostoBotellaExterno(precioBotellaNormal);
+            estampadoAnimada.setPrecioEstampaAnimada();
+            estampadoDeporte.setCostoBotellaExterno(precioBotellaNormal);
+            estampadoDeporte.setPrecioEstampaDeporte();
+            estampadoCultural.setPrecioEstampaCultural();
+            
             
             
             System.out.println("Precio de la botella normal: "+botellaNormal.getCostoBotella());

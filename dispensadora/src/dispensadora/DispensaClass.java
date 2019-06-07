@@ -14,7 +14,7 @@ public class DispensaClass {
     private final String[] codigoOpcion;
 
     //-----------------------Constructor-----------------------
-    
+        
     public DispensaClass() {
         this.cantidadProductos = new int[]{5,5,5,5,5,5,5,5,5,5,5,5};
         this.valorProducto = new int[]{600,800,1300,1000,900,700,1600,1600,1300,1500,2000,1700};
